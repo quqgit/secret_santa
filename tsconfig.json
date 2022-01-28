@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "sourceMap": true
+  },
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true
+}
